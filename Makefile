@@ -2,7 +2,7 @@ build:
 	rm -rf build
 	mkdir -p build
 	cp -r client/assets/. build/
-	env GOOS=js GOARCH=wasm go build -o build/game.wasm -tags dev client/cmd/client
+	env GOOS=js GOARCH=wasm go build -o build/game.wasm -tags dev client/cmd/client/client.go
 
 buildprod:
 	rm -rf build

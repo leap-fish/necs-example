@@ -54,16 +54,18 @@ func (s *BasicSubSystem) Initialize(world donburi.World) {
 		_ = srvsync.NetworkSync(s.world, &ent, PositionComponent)
 	}
 
-	go func() {
-		deleteQuery := donburi.NewQuery(filter.And(filter.Contains(esync.NetworkIdComponent), filter.Not(filter.Contains(shared.GlobalStatsComponent))))
-		for range time.Tick(time.Second * 8) {
-			// Delete old
-			deletionEnt, ok := deleteQuery.First(world)
-			if ok {
-				world.Remove(deletionEnt.Entity())
+	/*
+		Commented out since the demo needs to be able to run for a long time.
+		go func() {
+			deleteQuery := donburi.NewQuery(filter.And(filter.Contains(esync.NetworkIdComponent), filter.Not(filter.Contains(shared.GlobalStatsComponent))))
+			for range time.Tick(time.Second * 8) {
+				// Delete old
+				deletionEnt, ok := deleteQuery.First(world)
+				if ok {
+					world.Remove(deletionEnt.Entity())
+				}
 			}
-		}
-	}()
+		}()*/
 }
 func (s *BasicSubSystem) Random() *rand.Rand {
 	r := rand.New(s.src)
