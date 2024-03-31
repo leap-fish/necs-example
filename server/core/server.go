@@ -17,7 +17,7 @@ import (
 )
 
 const (
-	TickRate = 66
+	TickRate = 16
 )
 
 type Server struct {
