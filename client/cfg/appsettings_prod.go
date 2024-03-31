@@ -3,5 +3,5 @@
 package cfg
 
 var AppConfig = map[string]any{
-	"server_url": "wss://prodserver.com",
+	"server_url": "wss://exampleserver.leap.fish",
 }
