@@ -8,7 +8,7 @@ buildprod:
 	rm -rf build
 	mkdir -p build
 	cp -r client/assets/. build/
-	env GOOS=js GOARCH=wasm go build -o build/game.wasm -tags prod client/cmd/client
+	env GOOS=js GOARCH=wasm go build -o build/game.wasm -tags prod client/cmd/client/client.go
 
 try:
 	@trap 'kill $(shell lsof -t -i:8080)' SIGINT; \
