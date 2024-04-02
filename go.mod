@@ -4,7 +4,7 @@ go 1.22.0
 
 require (
 	github.com/hajimehoshi/ebiten/v2 v2.7.0
-	github.com/leap-fish/necs v0.0.2
+	github.com/leap-fish/necs v0.0.3
 	github.com/yohamta/donburi v1.4.0
 	nhooyr.io/websocket v1.8.10
 )

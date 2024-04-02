@@ -13,8 +13,8 @@ github.com/hashicorp/go-msgpack v0.5.5 h1:i9R9JSrqIz0QVLz3sz+i3YJdT7TTSLcfLLzJi9
 github.com/hashicorp/go-msgpack v0.5.5/go.mod h1:ahLV/dePpqEmjfWmKiqvPkv/twdG7iPBM1vqhUKIvfM=
 github.com/jezek/xgb v1.1.1 h1:bE/r8ZZtSv7l9gk6nU0mYx51aXrvnyb44892TwSaqS4=
 github.com/jezek/xgb v1.1.1/go.mod h1:nrhwO0FX/enq75I7Y7G8iN1ubpSGZEiA3v9e9GyRFlk=
-github.com/leap-fish/necs v0.0.2 h1:+kwNU9PZnSslnbsoN5gWyu7msZ3HfRaxrpHwx4VFrV4=
-github.com/leap-fish/necs v0.0.2/go.mod h1:nrkgG0dCAH2mqfgdxQVXAQajAc8VLYs4JiJA6fBus5U=
+github.com/leap-fish/necs v0.0.3 h1:VCCcCKyXbfE+vuM/r30xiHiJeVD57OI3rxE3Eu6WP74=
+github.com/leap-fish/necs v0.0.3/go.mod h1:nrkgG0dCAH2mqfgdxQVXAQajAc8VLYs4JiJA6fBus5U=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/sirupsen/logrus v1.9.3 h1:dueUQJ1C2q9oE3F7wvmSGAaVtTmUizReu6fjN8uqzbQ=
